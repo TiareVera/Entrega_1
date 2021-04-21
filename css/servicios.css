@@ -1,0 +1,27 @@
+#servicios h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: x-large;
+    -webkit-text-stroke: 1px black;
+    /*para poner el borde negro a la letra*/
+    color: white;
+}
+
+#servicios ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+#servicios ul li {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#servicios ul li img {
+    width: 80%;
+    height: 20vh;
+}
