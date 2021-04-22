@@ -1,0 +1,20 @@
+@import url(carrusel_trabajo.css);
+@import url(header_trabajo.css);
+@import url(tab_vertical.css);
+* {
+    background-color: #FF6800;
+}
+
+main {
+    background-color: darkblue;
+    padding: 0;
+}
+
+main ul {
+    text-align: center;
+}
+
+main li {
+    display: inline-block;
+    text-align: center;
+}
