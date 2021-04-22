@@ -1,0 +1,30 @@
+#banner p {
+    text-align: center;
+}
+
+#banner p img {
+    width: 100%;
+    height: 30vh;
+    /*fin de la imagen*/
+}
+
+
+/*inicio de los textos*/
+
+#banner .contenedor {
+    text-align: center;
+    font-size: x-large;
+    -webkit-text-stroke: 1px black;
+    /*para poner el borde negro a la letra*/
+    color: white;
+}
+
+#banner .contenedor h4 {
+    text-decoration: underline black;
+    /*es el subrrayado*/
+}
+
+#descripcion {
+    padding-top: 10px;
+    text-align: center;
+}

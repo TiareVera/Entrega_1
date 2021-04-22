@@ -1,0 +1,46 @@
+/*.buscador {
+    display: block;
+    float: right;
+    background-color: white;
+    border: solid white;
+}*/
+
+.buscador {
+    display: block;
+    float: right;
+    padding-right: 70px;
+}
+
+.buscador ul {
+    display: flex;
+}
+
+.buscador ul li {
+    list-style: none;
+}
+
+.buscador input {
+    width: 0px;
+    height: 0px;
+    padding: 0 0px;
+    font-size: 12px;
+    color: black;
+    outline: none;
+    border: 0px solid darkblue;
+    border-radius: 30px;
+}
+
+.buscador .boton_lupa img {
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.buscador:hover input {
+    width: 240px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid darkblue;
+}
